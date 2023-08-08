@@ -31,7 +31,6 @@ const checkSubscription = async (fbid) => {
         return {};
       }
       return {
-        fbid: fbid,
         subscriptionStatus: 'A',
         //expireDate: cacheItem
       };
